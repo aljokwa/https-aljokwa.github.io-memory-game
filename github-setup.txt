@@ -1,0 +1,96 @@
+# How to Set Up Your Memory Game GitHub Repository
+
+Follow these steps to download the files and create a GitHub repository:
+
+## Step 1: Download the Files
+
+Save each of the files created above:
+
+1. `index.html` - Main HTML file
+2. `styles.css` - CSS stylesheet
+3. Create a `scripts` folder and save `game.js` inside it
+4. Create an `assets/images` folder structure and save `card-back.svg` inside it
+5. `README.md` - Project documentation
+6. `LICENSE` - MIT license
+7. `.gitignore` - Git ignore file
+
+## Step 2: Set Up Local Repository
+
+Open your terminal/command prompt and navigate to the folder where you saved the files:
+
+```bash
+cd path/to/memory-game
+```
+
+Initialize a Git repository:
+
+```bash
+git init
+```
+
+Add all files to the repository:
+
+```bash
+git add .
+```
+
+Commit the files:
+
+```bash
+git commit -m "Initial commit: Memory Game"
+```
+
+## Step 3: Create GitHub Repository
+
+1. Go to [GitHub](https://github.com) and sign in
+2. Click on the "+" icon in the top right and select "New repository"
+3. Name your repository (e.g., "memory-game")
+4. Add a description (optional)
+5. Choose whether to make it public or private
+6. Do NOT initialize with a README, .gitignore, or license (since we already have these files)
+7. Click "Create repository"
+
+## Step 4: Connect and Push to GitHub
+
+GitHub will show you commands to connect your local repository. Use the "push an existing repository" option:
+
+```bash
+git remote add origin https://github.com/yourusername/memory-game.git
+git branch -M main
+git push -u origin main
+```
+
+Replace `yourusername` with your actual GitHub username.
+
+## Step 5: Verify
+
+Visit `https://github.com/yourusername/memory-game` to ensure all files were uploaded correctly.
+
+## Additional Options
+
+### Setting up GitHub Pages
+
+To make your game playable online:
+
+1. Go to your repository on GitHub
+2. Click on "Settings"
+3. Scroll down to "GitHub Pages"
+4. Under "Source", select "main" branch
+5. Click "Save"
+
+Your game will be available at `https://yourusername.github.io/memory-game` after a few minutes.
+
+### Making Future Updates
+
+To update your game in the future:
+
+1. Make changes to your local files
+2. Commit the changes:
+   ```bash
+   git add .
+   git commit -m "Description of changes"
+   ```
+3. Push to GitHub:
+   ```bash
+   git push
+   ```

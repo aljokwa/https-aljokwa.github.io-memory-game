@@ -1,0 +1,19 @@
+# Memory Game Package Structure
+
+Here's the structure for your GitHub repository:
+
+```
+memory-game/
+├── index.html
+├── styles.css
+├── scripts/
+│   └── game.js
+├── assets/
+│   └── images/
+│       ├── card-back.svg
+│       └── (other game images)
+├── LICENSE
+└── README.md
+```
+
+I'll create each of these files for you to download.
